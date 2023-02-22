@@ -1,0 +1,126 @@
+.from-blog{
+    width: 100%;
+    margin-bottom: 7%;
+}
+
+.blog-title{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.blog-title span{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #263a4f;
+    font-weight: 600;
+    letter-spacing: 0;
+    position: relative;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+.blog-title h1{
+    font-size: 32px;
+    display: block;
+    line-height: 42px;
+    color: #263a4f;
+    margin: 0 0 10px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-transform: none;
+}
+
+.blog{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog{
+    width: calc(33.33% - 30px);
+    padding-left: 100px;
+}
+
+.blog-item{
+    margin: 0 20px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 4px 4px 8px -6px rgba(34, 60, 80, 0.2);
+    background-color: #f9fafa;
+}
+
+.blog-item{
+    position: relative;
+}
+
+.blog-info{
+    padding: 30px;
+}
+
+.blog-info h5{
+    margin: 40px 0 10px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #263a4f;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+}
+
+.blog-info p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-family: "Roboto-Light";
+    color: #8d9aa8;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+}
+
+.blog-info a{
+    color: #263a4f;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.blog-images{
+    position: relative;
+}
+
+.category a{
+    background-color: #ffbe00;
+    padding: 8px 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Work Sans",sans-serif;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: -10px;
+}
+
+.blog-item{
+    position: relative;
+}
+
+.readmore{
+    margin-left: 45px;
+}
+
+.blog-info .readmore:before {
+    background-color: #ffbe00;
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 4px;
+    left: 30px;
+    bottom: 35px;
+}
+
+.blog-item:hover{
+    cursor: pointer;
+}
